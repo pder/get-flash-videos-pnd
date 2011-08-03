@@ -1,0 +1,9 @@
+[submodule "get-flash-videos"]
+	path = get-flash-videos
+	url = git://github.com/monsieurvideo/get-flash-videos.git
+[submodule "rtmpdump"]
+	path = rtmpdump
+	url = git://git.ffmpeg.org/rtmpdump
+[submodule "gfv-plugins"]
+	path = gfv-plugins
+	url = git://gitorious.org/get-flash-videos-plugins/gfv-plugins.git
