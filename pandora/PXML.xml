@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PXML xmlns="http://openpandora.org/namespaces/PXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PXML_schema.xsd">
+    <package id="package.get-flash-videos">
+        <titles>
+            <title lang="en_US">get-flash-videos</title>
+        </titles>
+        <descriptions>
+            <description lang="en_US">A command line program to download flash videos</description>
+        </descriptions>
+        <version major="0" minor="1" release="1" build="r1"/><!--This programs version-->
+        <author name="get-flash-videos team" website="http://code.google.com/p/get-flash-videos"/><!--Optional email and website, name required-->
+    </package>
+    <application id="get-flash-videos.pder" appdata="get-flash-videos">
+        <titles>
+            <title lang="en_US">get-flash-videos</title>
+        </titles>
+        <title lang="en_US">get-flash-videos</title>
+        <description lang="en_US">A command line program to download flash videos</description>
+        <exec command="launch.sh" x11="req"/>
+        <icon src="icon.png"/>
+        <author name="get-flash-videos team" website="http://code.google.com/p/get-flash-videos"/><!--Optional email and website, name required-->
+        <version major="0" minor="1" release="r1" build="r1"/><!--This programs version-->
+        <licenses>
+            <license name="GPLv2+" url="http://www.gnu.org/licenses/gpl-2.0.html" sourcecodeurl="git://github.com/pder/get-flash-videos-pnd.git"/>
+        </licenses>
+        <info name="get-flash-videos documentation" type="text/plain" src="get_flash_videos.txt"/>
+        <categories>
+            <category name="Network">
+                <subcategory name="FileTransfer"/>
+            </category>
+        </categories>
+    </application>
+</PXML>
