@@ -1,0 +1,9 @@
+#!/bin/bash
+
+url=$(xclip -o)
+
+if [ ! -z "$url" ] ; then
+    get_flash_videos "$@" "$url"
+else
+    echo "Error: clipboard empty"
+fi
