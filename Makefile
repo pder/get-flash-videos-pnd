@@ -16,7 +16,7 @@ pnd: rtmpdump
 	cp rtmpdump/rtmpdump pnd/bin
 	$(STRIP) pnd/lib/librtmp.so.0
 	$(STRIP) pnd/bin/rtmpdump
-	cp pandora/* pnd
+	cp -r pandora/* pnd
 	pod2text get-flash-videos/doc/get_flash_videos.pod pnd/get_flash_videos.txt
 	$(PND_MAKE) -p get-flash-videos_$(VER).pnd -d pnd -x pnd/PXML.xml -i pandora/icon.png -c
 
