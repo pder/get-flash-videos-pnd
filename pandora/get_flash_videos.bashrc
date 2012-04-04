@@ -6,6 +6,8 @@ export PERL5LIB=$(pwd)/lib/perl5
 export LD_LIBRARY_PATH=$(pwd)/lib
 export HOME=$(pwd)
 
+alias gfv="get_flash_videos"
+
 if [ ! -d .get_flash_videos ] ; then
     cp -r defaults .get_flash_videos
 fi
