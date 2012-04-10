@@ -16,3 +16,8 @@ mkdir -p downloads
 cd downloads
 
 echo 'Run `get_flash_videos --help` for more info'
+echo
+echo 'Shortcuts:'
+echo '  gfv - alias for get_flash_videos'
+echo '  gfvc - wrapper script that passes contents of clipboard as last argument'
+
