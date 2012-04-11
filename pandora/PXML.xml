@@ -7,7 +7,7 @@
         <descriptions>
             <description lang="en_US">A command line program to download flash videos</description>
         </descriptions>
-        <version major="0" minor="1" release="2" build="1"/><!--This programs version-->
+        <version major="0" minor="1" release="3" build="1"/><!--This programs version-->
         <author name="get-flash-videos team" website="http://code.google.com/p/get-flash-videos"/><!--Optional email and website, name required-->
     </package>
     <application id="get-flash-videos.pder" appdata="get-flash-videos">
@@ -19,7 +19,7 @@
         <exec command="launch.sh" x11="req"/>
         <icon src="icon.png"/>
         <author name="get-flash-videos team" website="http://code.google.com/p/get-flash-videos"/><!--Optional email and website, name required-->
-        <version major="0" minor="1" release="2" build="1"/><!--This programs version-->
+        <version major="0" minor="1" release="3" build="1"/><!--This programs version-->
         <licenses>
             <license name="GPLv2+" url="http://www.gnu.org/licenses/gpl-2.0.html" sourcecodeurl="git://github.com/pder/get-flash-videos-pnd.git"/>
         </licenses>
