@@ -8,6 +8,8 @@ export HOME=$(pwd)
 
 alias gfv="get_flash_videos"
 
+cp -r defaults .get_flash_videos
+
 mkdir -p downloads
 cd downloads
 
