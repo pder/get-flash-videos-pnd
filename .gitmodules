@@ -1,6 +1,6 @@
 [submodule "get-flash-videos"]
 	path = get-flash-videos
-	url = git://github.com/monsieurvideo/get-flash-videos.git
+	url = git://github.com/pder/get-flash-videos.git
 [submodule "rtmpdump"]
 	path = rtmpdump
 	url = git://git.ffmpeg.org/rtmpdump
